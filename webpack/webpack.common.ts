@@ -1,13 +1,7 @@
 import * as path from 'path';
-
 import * as Webpack from 'webpack';
-import * as WebpackDevServer from 'webpack-dev-server';
 
-interface Configuration extends Webpack.Configuration {
-    devServer?: WebpackDevServer.Configuration
-}
-
-const config: Configuration = {
+const config: Webpack.Configuration = {
     entry: path.resolve(__dirname, `../src/index.tsx`),
     module: {
         rules: [

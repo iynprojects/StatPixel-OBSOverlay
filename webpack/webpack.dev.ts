@@ -40,14 +40,6 @@ const config = merge(common, {
     output: {
         path: path.resolve(__dirname, `../dist`),
         filename: `bundle.min.js`
-    },
-
-    devServer: {
-        contentBase: path.resolve(__dirname, `../public`),
-        historyApiFallback: true,
-        port: 3000,
-        publicPath: `http://localhost:3000`,
-        hotOnly: true
     }
 });
 
