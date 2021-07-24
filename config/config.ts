@@ -6,7 +6,7 @@ const config = {
     player: ``, // Enter your Minecraft UUID here.
 
     display: {
-        font: `Minecraft`, // The font to render with.
+        font: `sans-serif`, // The font to render with.
         fontSize: 40, // Font size, in pixels.
 
         outline: true // Should there be an outline around the overlay?

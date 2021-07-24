@@ -2,6 +2,8 @@ import React from 'react';
 
 import { init } from './scripts/main';
 
+import '../public/scss/index.scss';
+
 /**
  * The React application layer that houses the canvas.
  */
