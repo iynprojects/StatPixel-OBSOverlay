@@ -36,3 +36,6 @@ const config = {
 
 ## Preview
 ![OBS Overlay Preview](https://share.alru.ga/fZIv)
+
+## Licensing
+This repository is licensed underneath the terms of the GNU AGPLv3.
