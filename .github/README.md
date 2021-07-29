@@ -4,7 +4,7 @@
 
 <div align="center">
     <img src="https://img.shields.io/github/v/release/iynprojects/StatPixel-OBSOverlay?style=for-the-badge&color=347aeb">
-    <img src="https://img.shields.io/github/contributors/iynprojects/StatPixel-OBSOverlay?style=for-the-badge&color=347aeb">
+    <img src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fstatpixel.net&color=347aeb">
     <img src="https://img.shields.io/github/languages/code-size/iynprojects/StatPixel-OBSOverlay?style=for-the-badge&color=347aeb">
 </div>
 
@@ -18,7 +18,7 @@
 ## Configuration
  To set up the overlay to track your stats, at least two things must be done:
   * Add your Hypixel API Key (you can get this by running `/api new` ingame).
-  * Change the UUID to that of your own account.
+  * Change the UUID to that of your own account (in `js/index.js`).
 
 ```js
 const config = {
