@@ -11,7 +11,7 @@
 ## Installation
  * Download the repository from the latest release available.
  * Extract it to a folder.
- * Add a ``Browser` source in your OBS scene.
+ * Add a browser source in your OBS scene.
  * Check `local file`, and select the `index.html` in the directory you unpacked the repository to.
  * Enable the source, resize it to wherever you wish, and you should be good to go!
 
